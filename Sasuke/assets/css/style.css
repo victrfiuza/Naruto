@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'loew';
+    src: url('fonts/loew-blackitalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'aestetico';
+    src: url('fonts/aestetico-informal-medium-it.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #000;
+    color: white;
+}
+
+body {
+    background-image: url(/Sasuke/assets/img/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height__full {
+    height: 100vh;
+}
+
+/*                                                                          
+ _   _    ___     _______ ____    _  _____ ___ ___  _   _        ____    _    ____  
+| \ | |  / \ \   / | ____/ ___|  / \|_   _|_ _/ _ \| \ | |      | __ )  / \  |  _ \ 
+|  \| | / _ \ \ / /|  _|| |  _  / _ \ | |  | | | | |  \| |      |  _ \ / _ \ | |_) |
+| |\  |/ ___ \ V / | |__| |_| |/ ___ \| |  | | |_| | |\  |      | |_) / ___ \|  _ < 
+|_| \_/_/   \_\_/  |_____\____/_/   \_|_| |___\___/|_| \_|      |____/_/   \_|_| \_\
+                                                                                                                                         
+*/
+
+.navbar {
+    /* Fixar a barra quando usar o scroll */
+    position: fixed;
+    z-index: 1;
+    /* Tamanho da NAVBAR, ocupando até o final da page com 100vw */
+    width: 100vw;
+    /* Espaçamento lateral top */
+    padding-top: 30px;
+    padding-left: 2vh;
+}
+
+.navbar ul {
+    list-style: none;
+    /* Deixar elementos lado a lado */
+    display: flex;
+}
+
+.navbar ul li {
+    /* Espaço entre elementos da NAVBAR */
+    padding: 0 40px;
+    font-size: 20px;
+    font-family: 'loew';
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #000;
+}
+
+/*                           
+ __  __    _    ___ _   _ 
+|  \/  |  / \  |_ _| \ | |
+| |\/| | / _ \  | ||  \| |
+| |  | |/ ___ \ | || |\  |
+|_|  |_/_/   \_|___|_| \_|
+                          
+*/
+
+
+/*                
+ _____ _______  _______ 
+|_   _| ____\ \/ |_   _|
+  | | |  _|  \  /  | |  
+  | | | |___ /  \  | |  
+  |_| |_____/_/\_\ |_|  
+                        
+*/
+
+.text__main {
+    text-align: left;
+    height: 100vh;
+    justify-content: left;
+    padding-left: 5vh;
+    padding-top: 15vh;
+    z-index: 1;
+}
+
+#Sharingan {
+    color: white;
+    font-family: 'loew';
+    font-size: 100px;
+}
+
+#Sharigan:hover {
+    color: red;
+}
+
+#Uchiha__Sasuke {
+    color: white;
+    font-family: 'loew';
+    font-size: 50px;
+}
+
+#operation {
+    margin-top: 1vh;
+    color: white;
+    font-family: 'aestetico';
+    font-size: 28px;
+}
+
+#Uchiha__Shisui {
+    margin-top: 30px;
+    color: white;
+    font-family: 'loew';
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+#Uchiha__Madara {
+    margin-top: 20px;
+    color: white;
+    font-family: 'loew';
+    font-size: 30px;
+    opacity: 0.5;
+}
