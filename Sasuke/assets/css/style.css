@@ -44,6 +44,14 @@ body {
 |_| \_/_/   \_\_/  |_____\____/_/   \_|_| |___\___/|_| \_|      |____/_/   \_|_| \_\
                                                                                                                                          
 */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    min-width: none;
+}
 
 .navbar {
     /* Fixar a barra quando usar o scroll */
@@ -87,6 +95,9 @@ body {
                           
 */
 
+.height__screen {
+    position: relative;
+}
 
 /*                
  _____ _______  _______ 
@@ -99,11 +110,9 @@ body {
 
 .text__main {
     text-align: left;
-    height: 100vh;
     justify-content: left;
     padding-left: 5vh;
     padding-top: 15vh;
-    z-index: 1;
 }
 
 #Sharingan {
@@ -123,7 +132,7 @@ body {
 }
 
 #operation {
-    margin-top: 1vh;
+    margin-top: 10px;
     color: white;
     font-family: 'aestetico';
     font-size: 28px;
